@@ -5,8 +5,8 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main', // change to your actual branch name
-                    url: 'https://github.com/Santhosh2010-ramesh/First.git',
-                    credentialsId: 'githubpat'
+                    url: 'https://github.com/kirthiksubbiah/python-flask.git',
+                    credentialsId: 'github'
             }
         }
  
